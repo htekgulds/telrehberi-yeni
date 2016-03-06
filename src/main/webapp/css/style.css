@@ -1,0 +1,15 @@
+body, .z-window-content {
+    padding: 0;
+    background: #efefef;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.main {
+    padding: 16px;
+    background: #dddddd;
+    border: 1px solid #cccccc;
+    height: 100%;
+}

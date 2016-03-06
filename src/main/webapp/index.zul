@@ -1,0 +1,52 @@
+<?link rel="stylesheet" href="/webjars/bootswatch/3.3.6/paper/bootstrap.min.css" ?>
+<?link rel="stylesheet" href="/css/style.css" ?>
+<?script src="/webjars/jquery/1.12.1/dist/jquery.min.js" ?>
+<?script src="/webjars/bootstrap/3.3.6/dist/js/bootstrap.min.js" ?>
+<zk xmlns:n="native" xmlns:x="http://www.w3.org/1999/xhtml">
+	<window apply="tr.gov.tuik.zk.telrehberi.controller.MainController" height="100%">
+		<!-- Navbar -->
+		<n:nav class="navbar navbar-default navbar-fixed-top">
+			<div zclass="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div zclass="navbar-header">
+					<n:button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span zclass="sr-only">Toggle navigation</span>
+						<span zclass="icon-bar"/>
+						<span zclass="icon-bar"/>
+						<span zclass="icon-bar"/>
+					</n:button>
+					<x:a class="navbar-brand" href="#">Telefon Rehberi</x:a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<x:div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<space sclass="navbar-right"/>
+					<button type="submit" zclass="btn btn-primary navbar-btn navbar-right">Görüş ve Öneriler</button>
+					<x:ul class="nav navbar-nav navbar-right">
+						<x:li><x:a href="#">Lütfen oda ve telefon değişikliklerini bildiriniz</x:a></x:li>
+					</x:ul>
+					<space sclass="navbar-right" width="100px"/>
+					<x:form class="navbar-form navbar-right" role="search">
+						<div zclass="form-group">
+							<textbox width="500px" type="text" zclass="form-control" placeholder="Aramak istediğiniz şeyi yazın (Tel, Oda, İsim, Birim...)" />
+						</div>
+					</x:form>
+				</x:div>
+			</div>
+		</n:nav>
+
+		<div zclass="container-fluid">
+			<div zclass="main">
+				<x:ul class="nav nav-tabs">
+					<x:li><x:a href="#">Merkez</x:a></x:li>
+					<x:li><x:a href="#">Bölgeler</x:a></x:li>
+					<x:li><x:a href="#">Önemli Telefonlar</x:a></x:li>
+					<x:li><x:a href="#">Personel İstatistikleri</x:a></x:li>
+				</x:ul>
+				<div>
+
+				</div>
+			</div>
+		</div>
+
+	</window>
+</zk>
