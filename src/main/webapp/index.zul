@@ -52,7 +52,8 @@
 		<div zclass="container">
             <div zclass="row">
                 <div zclass="col-md-4">
-                    <div zclass="panel panel-default">
+                    <div zclass="panel panel-primary">
+                        <div zclass="panel-heading">Birimler</div>
                         <div zclass="panel-body">
                             <div zclass="list-group">
                                 <x:a href="#" class="list-group-item">TÜİK Başkanlığı</x:a>
