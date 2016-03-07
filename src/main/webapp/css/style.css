@@ -3,13 +3,30 @@ body, .z-window-content {
     background: #efefef;
 }
 
-body {
+.z-window-content {
     padding-top: 70px;
+    padding-bottom: 46px;
 }
 
 .main {
     padding: 16px;
-    background: #dddddd;
+    background: #fefefe;
     border: 1px solid #cccccc;
     height: 100%;
+}
+
+.footer-wrapper {
+    background: #fefefe;
+    position: fixed;
+    bottom: 0;
+    height:36px;
+    width: 100%;
+    border-top: 1px solid #dddddd;
+}
+
+.footer-wrapper p {
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    color: #666666;
 }
